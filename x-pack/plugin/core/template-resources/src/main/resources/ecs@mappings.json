@@ -218,6 +218,40 @@
             },
             "match_mapping_type": "string"
           }
+        },
+        {
+          "sets_synthetic_source_keep_none": {
+            "mapping": {
+              "synthetic_source_keep": "none"
+            },
+            "path_match": [
+              "*.alias",
+              "*.attributes",
+              "*.author",
+              "*.bcc.address",
+              "*.category",
+              "*.cc.address",
+              "*.enrichments",
+              "*.env_vars",
+              "*.from.address",
+              "*.header_flags",
+              "*.hosts",
+              "*.indicator.id",
+              "*.ip",
+              "*.mac",
+              "*.platforms",
+              "related.hash",
+              "*.reply_to_address",
+              "*.roles",
+              "*.sender.address",
+              "*.tag",
+              "*.tags",
+              "thread.capabilities.effective",
+              "thread.capabilities.permitted",
+              "*.to.address",
+              "*.type"
+            ]
+          }
         }
       ]
     }
